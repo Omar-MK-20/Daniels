@@ -1,0 +1,131 @@
+/* #region === 640 === >  */
+@media screen and (min-width: 640px) {
+
+}
+/* #endregion */
+
+/* #region === 768 === >  */
+@media screen and (min-width: 768px) {
+    header .header-content h1 {
+        font-size: 44px;
+        line-height: 53px;
+        padding: 9px 0px;
+    }
+
+    nav>.container-md {
+        max-width: 750px;
+    }
+
+    #team .image-container .image-overlay .links-container {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
+/* #endregion */
+ 
+/* #region === 992 === >  */
+@media screen and (min-width: 992px) {
+    nav>.container-md {
+        max-width: 970px;
+    }
+
+    #contact .input-items {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+    
+    #contact .input-items input {
+        width: 50%;
+    }
+
+    .my-navbar .navbar-nav {
+        background-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .my-navbar .navbar-nav .nav-link.active {
+        color: rgb(255, 255, 255);
+    }
+
+    .my-nav-scroll .navbar-nav .nav-link.active {
+        color: rgb(28, 28, 28);
+    }
+
+    .nav-link:focus, .nav-link:hover {
+        color: white;
+    }
+
+    .nav-link::after {
+        background-color: #ffffff;
+    }
+
+    
+}
+/* #endregion */
+
+/* #region === 1170 === >  */
+@media screen and (min-width: 1170px) {
+    header .header-content h1 {
+        font-size: 60px;
+        line-height: 72px;
+        padding: 12px 0px;
+    }
+}
+/* #endregion */
+
+/* #region === 1200 === >  */
+@media screen and (min-width: 1200px) {
+    nav>.container-md {
+        max-width: 1170px;
+    }
+
+    #services .container-md {
+        padding: 100px 70px 70px;
+        /* padding-top: 100px;
+        padding-bottom: 70px; */
+    }
+
+    #portfolio .container-md {
+        padding: 100px 70px 70px;
+        /* padding-top: 100px;
+        padding-bottom: 70px; */
+    }
+
+    #testimonials .container-md {
+        padding: 100px 70px 120px;
+        /* padding-top: 100px;
+        padding-bottom: 70px; */
+    }
+
+    #statics .container {
+        padding: 100px 70px 120px;
+        /* padding-top: 100px;
+        padding-bottom: 70px; */
+    }
+
+    #team .container-md {
+        padding: 100px 70px 120px;
+        /* padding-top: 100px;
+        padding-bottom: 70px; */
+    }
+
+    #contact .container-md {
+        padding: 100px 100px 120px;
+        /* padding-top: 100px;
+        padding-bottom: 70px; */
+    }
+}
+/* #endregion */
+
+/* #region === 1536 === >  */
+@media screen and (min-width: 1536px) {
+    
+}
+/* #endregion */
