@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing professional services and work. This project is a recreation of the original Daniels portfolio website, implementing modern web development practices.
 
 ## Live Demo
-[View Live Website](YOUR_HOSTED_LINK_HERE)
+[View Live Website](https://omar-mk-20.github.io/Daniels/)
 
 ## Key Features
 - Responsive design with mobile-first approach
